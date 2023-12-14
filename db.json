@@ -1,0 +1,88 @@
+{
+  "membre": [
+    {
+      "id": 1,
+      "prenom": "Mohamed Amine",
+      "nom": "Welfeki",
+      "cin": "14437433",
+      "tel": "29051482",
+      "email": "welfkimedamine@gmail.com",
+      "isactive": true
+    },
+    {
+      "id": 2,
+      "prenom": "Ahmed",
+      "nom": "Omry",
+      "cin": "14487965",
+      "tel": "29025478",
+      "email": "Ahmed@gmail.com",
+      "isactive": true
+    },
+    {
+      "prenom": "Dali",
+      "nom": "Hmem",
+      "cin": "14437845",
+      "tel": "28745965",
+      "email": "dali@gmail.com",
+      "isactive": true,
+      "id": 3
+    },
+    {
+      "prenom": "Yessine",
+      "nom": "Mami",
+      "cin": "14487596",
+      "tel": "25784963",
+      "email": "yessine@gmail.com",
+      "isactive": false,
+      "id": 4
+    },
+    {
+      "prenom": "Morad",
+      "nom": "farhat",
+      "cin": "13385478",
+      "tel": "97854623",
+      "email": "mohamed@gmail.com",
+      "isactive": true,
+      "id": 5
+    },
+    {
+      "prenom": "khaled",
+      "nom": "Tlili",
+      "cin": "14478549",
+      "tel": "925874869",
+      "email": "khaled@gmail.com",
+      "isactive": false,
+      "id": 6
+    }
+  ],
+  "materiel": [
+    {
+      "id": 1,
+      "nom": "Carte Arduino",
+      "description": "Movais état",
+      "quantite": "5",
+      "fonctionne": true
+    },
+    {
+      "id": 2,
+      "nom": "Carte Arduino",
+      "description": "Bon état",
+      "quantite": "5",
+      "fonctionne": true
+    },
+    {
+      "id": 4,
+      "nom": "Camera",
+      "description": "50px",
+      "quantite": "20",
+      "fonctionne": true
+    },
+    {
+      "nom": "Capteur Infrarouge",
+      "description": "Bon état",
+      "quantite": "15",
+      "fonctionne": true,
+      "id": 5
+    }
+  ]
+}

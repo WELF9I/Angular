@@ -1,0 +1,37 @@
+<form class="example-form" [formGroup]="materielform" (ngSubmit)="SaveMateriel()">
+    <mat-card>
+    <mat-card-content>
+    
+
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Id</mat-label>
+      <input matInput placeholder="ID" formControlName="id" >
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Nom</mat-label>
+        <input matInput placeholder="Nom" formControlName="nom" >
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Description</mat-label>
+        <input matInput placeholder="Description" formControlName="description" >
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Quantite</mat-label>
+        <input matInput placeholder="Quantite" formControlName="quantite" >
+      </mat-form-field>
+
+    <section class="example-section">
+        <mat-checkbox class="example-margin" formControlName="fonctionne">Fonctionne</mat-checkbox>
+    </section>
+</mat-card-content>
+
+    <mat-card-footer>
+    <div class="example-button-row" style="margin: 2px">
+        <button mat-raised-button color="primary">Save</button> | <a (click)="closepopup()" mat-raised-button color="accent">Close</a>
+    </div>
+</mat-card-footer>
+</mat-card>
+  </form>
